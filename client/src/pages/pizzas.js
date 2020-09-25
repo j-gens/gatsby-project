@@ -1,9 +1,13 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 export default function PizzasPage() {
   return (
     <div>
-      Hello I am the Pizzas page!
+      <Nav />
+      <p>
+        Hello I am the Pizzas page!
+      </p>
     </div>
   );
 }

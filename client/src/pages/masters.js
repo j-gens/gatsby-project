@@ -1,9 +1,13 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 export default function MastersPage() {
   return (
     <div>
-      Hello I am the Masters page!
+      <Nav />
+      <p>
+        Hello I am the Masters page!
+      </p>
     </div>
   );
 }
