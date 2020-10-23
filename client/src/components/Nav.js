@@ -1,11 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
+
 import Logo from './Logo';
 
 
 const NavStyles = styled.nav`
   margin-bottom: 3rem;
+  .logo {
+    transform: translateY(-25%);
+  }
   ul {
     margin: 0;
     padding: 0;
@@ -37,6 +41,9 @@ const NavStyles = styled.nav`
     font-size: 3rem;
     text-decoration: none;
     &:hover {
+      color: var(--red);
+    }
+    &[aria-current='page'] {
       color: var(--red);
     }
   }
